@@ -21,7 +21,7 @@ To run this script requires three `.tsv` files
 #### file 3 : postbin_contigcheck_FINAL3.tsv
 This infomation is acquired by mapping the reads to the contigs of interest (in my case the binned contigs). Thenrunning `samtools depth` on the `BAM` files. 
 
-| sample      | ctg           | locus | depth |
+| sample      | ctg           | locus | numReads |
 | ----------- | ------------- | ----- | ----- |
 | metagenome1 | contig000001  | 1     | 34    |
 | metagenome2 | contig000002  | 1     | 456   |
